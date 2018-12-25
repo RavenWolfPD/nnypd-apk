@@ -53,14 +53,13 @@
 - Added a visual effect to reflect Disrupt debuff
 
 ### Features (WIP)
-- Cave Chapter is forked in two different subchapter at depth 14  (You have to choose one path to continue) 
+- Cave Chapter is forked in two different subchapters at depth 14  (You have to choose one path to continue) 
 - Dark cave subchapter features a new boss battle and a new mob
 - Abandoned mine subchapter features DM boss and a new mob
-QoL
-- Improved auto acquire target mechanic (tagged enemy). It now prioritises the last attacked target if any, and path not blocked, otherwise it will choose the nearest visible enemy.
 
 
 ### General
+- Improved auto acquire target mechanic (tagged enemy). It now prioritises the last attacked target if any, and path not blocked, otherwise it will choose the nearest visible enemy.
 - Starvation damage phase starts much faster
 - Depth 2 exit room no longer hidden
 - Piranha rooms will spawn sparkling dust potion (be careful using those) instead of invisibility
