@@ -14,7 +14,6 @@
 - Ranged weapons no longer provide combo and have 50% accuracy penalty at close combat
 - Penalties for equipping incompatible objects reduced, now is viable to equip a two handed weapon and a shield if you have some excess strength
 - Dual wielding is no longer available (will be reintroduced latter), but you can equip one-handed Weapons in the offhand slot to be used at melee if a ranged weapon is on the main hand.
-- Alternative paths at caves chapter, featuring a new challenging boss and two new mobs
 - Changed some mob's behaviour. Tweaked Tengu battle
 - Reworked blocking/parring mechanics. Weapons and shields now display their defencive value, which is used to determine your chances of blocking while guarding 
 - Shields can also be used to slam enemies: Deals some damage and have chance to push back enemy (Guaranteed if enemy is exposed). Long click on shield to activate
