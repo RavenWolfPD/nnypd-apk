@@ -76,6 +76,7 @@
 - Reworked penalties from equipment: penalties can only be reduced by half of their base penalty with excess ST.
 - Every player start with a new container (heavy quiver) that holds throwing weapons and missiles
 - Added a new slot for throwing weapons and missiles (This slot is inside the quiver)
+- Last equipped throwing weapon or ammunition will be automatically picked as it were equipped (Taking no time)
 - OneHanded Heavy weapons can be used as offhand weapon, with a ST penalty of 1+weapon tier
 - Shields and two handed weapons can be equipped together with a ST penalty of 1+ weap/shield tier
 - Shields and dual weapons can be equipped together but attack speed bonus from weapon is negated
@@ -153,6 +154,8 @@ Most weapons also have different bonus.  As a general rule:
 - Herbs have powerful effects while consumed and only take one turn to eat 
 - Ring of satiety also increase herbs buff durations
 - Scroll of Transmutation behaviour adjusted to work better with the new tier system
+- Scroll of enchantment no longer upgrade enchanted items or rings/wands (rings and wands will instead be transmuted)
+- There is an extra scroll of upgrade at last chapter
 
 
 ### Hero Stats
@@ -198,6 +201,7 @@ Guard reworked:
 - Charm duration is reduced instead of removed when damage is received
 - Disrupted and Dazed Debuffs will prevent enemies from using magical attacks
 - Disrupted also make enemies vulnerable to Energy damage
+- Shocked will halve your magic skill
 
 
 ### Mobs
