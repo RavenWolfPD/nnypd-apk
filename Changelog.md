@@ -1,4 +1,4 @@
-# 0.1 Changelist
+# 0.1.1 Changelist
 
 
 ## Major changes
@@ -51,6 +51,7 @@
 - New chakram sprite
 - Quarterstaff renamed to Short staff and have a new sprite (Quarterstaff is now a twohanded weapon)
 - Added a visual effect to reflect Disrupt debuff
+- Ammunitions fired by weapons have increased speed
 
 ### Features (WIP)
 - Cave Chapter is forked in two different subchapters at depth 14  (You have to choose one path to continue) 
@@ -59,6 +60,7 @@
 
 
 ### General
+- Added a new setting to enable/disable auto throw (attack with throwing weapons when touching enemies)
 - Improved auto acquire target mechanic (tagged enemy). It now prioritises the last attacked target if any, and path not blocked, otherwise it will choose the nearest visible enemy.
 - Starvation damage phase starts much faster
 - Depth 2 exit room no longer hidden
@@ -86,10 +88,13 @@
 - Scrolls of upgrade and enchantment can be used to remove items curses
 - Starting Items no longer can be found on hero remains
 - Ring of durability removed
-- New ring of sharpshooting, increase damage with ranged weapons (specially throwing ones) and reduce ranged penalties 
+- New ring of sharpshooting, increase damage with ranged weapons (specially throwing ones) and reduce ranged penalties
+- Ring of satiety no longer grant increased satiation from food (It still affect satiation decreasing slower)
+- Ring of satiety increase buff duration from consumed herbs
 
 
 ### Armors
+- Str requirement decreased by 1
 - Added min dr Value. This value increases with upgrades and Heavy Armors have greater base value. 
 - Excess Strength no longer increases DR bonus 
 
@@ -114,7 +119,8 @@ Most weapons also have different bonus.  As a general rule:
 - Ranged attacks can still miss to unaware/stunned enemies (chance based on distance)
 - Ranged attacks dont stack combo and dont gain bonus damage from combo
 - Flintlock weapons no longer ignore range penalties
-- Flint lock weapons penetrate armor (reduce defence at half) instead of ignoring it.
+- Flintlock weapons penetrate armor (reduce defence at half) instead of ignoring it
+- Reduced flintlocks base accuracy and stealth penalty by 10%
 
 
 ### Throwing weapons
@@ -212,6 +218,7 @@ Guard reworked:
 - Evil eyes will attempt to retreat when low on HP (less than half), instead of when full
 - Bandits have only two ranged attacks, range increased to 3
 - Gnoll brute have only two ranged attacks, enrage start at ⅓ Hp
+- Blackguards have two short ranged attacks
 - Piranhas may cause bleed on hit and will gain bloodthirst buff (double atk spd) if attack a bleeding target
 - Piranhas are vulnerable to shock damage
 - Succubus drain life doubled (gain same HP as damage dealt)
